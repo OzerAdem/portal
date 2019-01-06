@@ -1,0 +1,296 @@
+2018-12-26 18:13:18 [192.168.83.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /var/www/portal/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#2 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/portal/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#1 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-26 18:13:18 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'al6a0c6ichrgidrvcfipeqoem1'
+    '_csrf-frontend' => 'b44f30abfeba466a7a44e6a77a316d2a65a0275d5e53d4f1fff0a022b40fc1e7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VkvSu1vsZKOP9Qt2EdVo0gLdwL30-kJe\";}'
+    'advanced-backend' => 'kmac2tsk3gecm9ko3chgu6fdh6'
+    '_csrf-backend' => 'feb82eb8805ce7392723648862c18db25379cc73dc08414c300bd1e3b1abcaafa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"T4baYZX7fy7wGMKBjOxy0nIfefHcxrSn\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=al6a0c6ichrgidrvcfipeqoem1; _csrf-frontend=b44f30abfeba466a7a44e6a77a316d2a65a0275d5e53d4f1fff0a022b40fc1e7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VkvSu1vsZKOP9Qt2EdVo0gLdwL30-kJe%22%3B%7D; advanced-backend=kmac2tsk3gecm9ko3chgu6fdh6; _csrf-backend=feb82eb8805ce7392723648862c18db25379cc73dc08414c300bd1e3b1abcaafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22T4baYZX7fy7wGMKBjOxy0nIfefHcxrSn%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/api/web/index.php'
+    'REMOTE_PORT' => '49647'
+    'REDIRECT_URL' => '/api/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545847998.599
+    'REQUEST_TIME' => 1545847998
+]
+2018-12-27 17:44:55 [192.168.83.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /var/www/portal/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#2 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/portal/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#1 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-27 17:44:55 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '8kvi3m5ac3bit7k5n5td4esef7'
+    '_csrf-backend' => '945d1f35f46e9535369d775a2fde80c97687f9c60e3d266e9112f98182b2da53a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"3eQzTx1Jm3-Pxrw5M1mgF0i6l10xvyKI\";}'
+    'advanced-frontend' => 'gup17k81ppe81mqk246spvdq13'
+    '_csrf-frontend' => '49f21799775f34826552b445e454e142ba05be68dfcc929ab3f2b91e6269484ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ISBm6_o4nButW7FqzRNyaeEoKD-pnRyz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=8kvi3m5ac3bit7k5n5td4esef7; _csrf-backend=945d1f35f46e9535369d775a2fde80c97687f9c60e3d266e9112f98182b2da53a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%223eQzTx1Jm3-Pxrw5M1mgF0i6l10xvyKI%22%3B%7D; advanced-frontend=gup17k81ppe81mqk246spvdq13; _csrf-frontend=49f21799775f34826552b445e454e142ba05be68dfcc929ab3f2b91e6269484ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ISBm6_o4nButW7FqzRNyaeEoKD-pnRyz%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/api/web/index.php'
+    'REMOTE_PORT' => '51161'
+    'REDIRECT_URL' => '/api/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545932695.408
+    'REQUEST_TIME' => 1545932695
+]
+2018-12-27 23:10:23 [192.168.83.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /var/www/portal/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#2 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/portal/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#1 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-27 23:10:22 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/api/web/index.php'
+    'REMOTE_PORT' => '63464'
+    'REDIRECT_URL' => '/api/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545952222.815
+    'REQUEST_TIME' => 1545952222
+]
+2018-12-27 23:10:27 [192.168.83.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /var/www/portal/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#2 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/portal/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#1 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-27 23:10:27 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'uth1vc0onve80o7pd963tfv152'
+    '_csrf-frontend' => '850d8d22bd4469e7b3d9dc646a4ccf44298fa4b16ce9bf8fbace4bad00bb0c12a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"T0j66w7RLdtXwOeZB_7y6Mo17gWo7Wg4\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=uth1vc0onve80o7pd963tfv152; _csrf-frontend=850d8d22bd4469e7b3d9dc646a4ccf44298fa4b16ce9bf8fbace4bad00bb0c12a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22T0j66w7RLdtXwOeZB_7y6Mo17gWo7Wg4%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/api/web/index.php'
+    'REMOTE_PORT' => '63473'
+    'REDIRECT_URL' => '/api/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545952227.161
+    'REQUEST_TIME' => 1545952227
+]
+2019-01-03 17:42:10 [192.168.83.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /var/www/portal/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#2 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/portal/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#1 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-01-03 17:42:10 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'l94aar8s6dsloqra2s13rti352'
+    'advanced-backend' => 'e7t7mp3glaf2ml3v5gnn1bl3f1'
+    '_csrf-backend' => 'ce39b349a3f0c1bc99cf15c907331681f8404f2b47ca64361b17152def3e881da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Z4qEcaq648zEVLY_05oBwJI7Y1OH63lB\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=l94aar8s6dsloqra2s13rti352; advanced-backend=e7t7mp3glaf2ml3v5gnn1bl3f1; _csrf-backend=ce39b349a3f0c1bc99cf15c907331681f8404f2b47ca64361b17152def3e881da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Z4qEcaq648zEVLY_05oBwJI7Y1OH63lB%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/api/web/index.php'
+    'REMOTE_PORT' => '63359'
+    'REDIRECT_URL' => '/api/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546537330.124
+    'REQUEST_TIME' => 1546537330
+]
